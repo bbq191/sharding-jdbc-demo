@@ -11,13 +11,10 @@ import com.example.shardingjdbcdemo.model.OrderItem;
 import java.math.BigDecimal;
 import java.util.List;
 import javax.annotation.Resource;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
-@RunWith(SpringRunner.class)
 @SpringBootTest
 public class ShardingJdbcDemoApplicationTests {
   @Resource private OrderMapper orderMapper;
