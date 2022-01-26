@@ -1,0 +1,2 @@
+- [ ] sharding-jdbc 集成 spring namespace 方式
+- [ ] sharding-jdbc 集成 spring-boot 方式
